@@ -583,16 +583,21 @@ margin-top: -470px !important;
             padding: 3px;
             background-color:rgb(163, 166, 167); 
         }
-    
         .navbar-nav button {
             width: 80px;
             height: 30px;
-            padding: 8px 15px;
+            padding: 5px 8px;
+            text-align: center;
+            margin: 7px 0px 7px 0px;
         }
         .navbar-nav label {
-            font-size: 16px;
-            width: auto; 
+            font-size: 16px; 
         }
+        .notification-area{
+            position: relative;
+            margin: 7px 0px 7px 0px;
+            }
+            
         .footerlogo{
             width: 100px;
             height: 50px;
