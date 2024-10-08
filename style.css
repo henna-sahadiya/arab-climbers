@@ -14,7 +14,7 @@ body {
     border-radius: 22px;
     width: 135px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 .navbar-nav label{
     font-family: Kanit;
@@ -24,8 +24,11 @@ line-height: 29.9px;
 text-align: center;
 width: 51px;
 height: 30px;
+margin-top: -2px;
 }
-
+.nav-item i{
+    margin-left: 5px;
+}
 
 .owl-carousel .item h5{
 font-family: Kanit;
@@ -385,6 +388,7 @@ border: 1px solid #103853;
 .notification-area{
 position: relative;
 margin-top: 8px;
+margin-left: 10px;
 }
 .notification-area img{
     width: 27.14px;
@@ -570,7 +574,7 @@ margin-top: -470px !important;
     background-color: rgb(163, 166, 167);
 }
 
-    @media (max-width: 600px) {
+    @media (max-width: 766px) {
  
   html, body{
     width:100%;
@@ -634,6 +638,7 @@ margin-top: -470px !important;
         }
         .image-banner {
             height: 100vh;
+            object-fit: cover;
         }
         .banner-center {
             width: 90%;
@@ -653,6 +658,9 @@ margin-top: -470px !important;
             line-height: 62px;
             text-align: left;
                                     
+        }
+        .card-text h4{
+            padding: 10px 0px 10px 10px;
         }
        .banner-carousal{
 width: 100%;
@@ -784,12 +792,13 @@ margin-top: 70px;
             width: 128px;
             }
             .table-head .btn-outline-light{
-                    padding: 5px 10px 5px 10px !important;
+                    padding: 13px 10px 13px 10px;
                     border-radius: 12px !important;
                     font-size: 15px;
                     font-weight: 400;
                     line-height: 20px;
                     text-align: center;
+                    width: 145px;
             }
             .climberimg{
                 width: 40px;
