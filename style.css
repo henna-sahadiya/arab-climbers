@@ -101,6 +101,7 @@ background-size: cover;
 }
 table{
 width: 100%;
+overflow: hidden;
 }
 
 .table .table-head{
@@ -175,7 +176,9 @@ text-align: center;
 .card-box{
     padding: 10px 10px 10px 10px;
 } 
-
+.card-box h4{
+padding: 0px 0px 10px 10px;
+}
 .card-text{
 background-color: #FFFFFF;
 box-shadow: 0px 4px 24px 0px #00000026;
@@ -518,19 +521,25 @@ text-align: center;
 justify-content: center;
 position: absolute;
 }
+
 #home-tab{
     color: #49635C; 
     font-size: 20px;
     font-weight: 500;
     line-height: 29.9px;
     text-align: left;
+    
 }
 #nav-profile-tab{
     color: #49635C; 
     font-size: 20px;
     font-weight: 500;
     line-height: 29.9px;
-    text-align: left;}
+    text-align: left;
+    }
+    /* .tab{
+        overflow: hidden;
+    } */
 
     .climber h4{
         font-family: Kanit;
@@ -573,6 +582,7 @@ margin-top: -470px !important;
 #navbar.scrolled {
     background-color: rgb(163, 166, 167);
 }
+
 
     @media (max-width: 766px) {
  
